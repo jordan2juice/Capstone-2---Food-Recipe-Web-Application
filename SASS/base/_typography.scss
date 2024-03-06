@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+a { 
+    color: $link-color;
+}
+
+a:hover {   
+    color: $link-color-hover;
+}
+
+/* Header */
