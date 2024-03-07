@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Recipes</title>
     <link rel="shortcut icon" href="imgs/favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="main.css" />
-    <script src="js files/theme.js"></script>
   </head>
   <body>
     <!-- header -->
@@ -22,21 +21,32 @@
         </ul>
       </nav>
     </header>
+
+    <!-- main -->
     <main>
       <div>
         <h1>Recipes for your dishes!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          laudantium blanditiis quidem. Facilis dolores temporibus, explicabo
-          officia doloribus natus molestiae et sunt magni cumque fuga alias
-          similique incidunt fugit facere.
-        </p>
-        <div>Search Recipes</div>
+        <div>
+          <!-- search bar -->
+          <input type="text" id="input-box" placeholder="Search for a recipe" />
+          <button id="search-btn">Search</button>
+          <!-- recipe results -->
+          <div id="recipes">
+            <h2>Your search results...</h2>
+            <div id="results">
+              <!-- recipes will be displayed here -->
+
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+
+    <!-- footer -->
     <footer class="footer">
       &copy; <span id="copyright"></span> Jordan Toujoue
     </footer>
     <script src="js files/app.js"></script>
+    <script src="js files/api.js"></script>
   </body>
 </html>

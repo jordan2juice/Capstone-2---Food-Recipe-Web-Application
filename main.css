@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -62,8 +66,21 @@ h1 {
   text-align: center;
 }
 .hero h1 {
-  font-size: 3.5em;
+  font-size: 5em;
   margin: 2rem 0;
+}
+
+#input-box {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  width: 50%;
+  background-color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .about-container {
@@ -97,7 +114,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 form label {
@@ -119,4 +136,41 @@ form textarea {
   margin-bottom: 10px;
   text-align: center;
   margin: 10px;
+}
+
+.img {
+  width: 400px;
+  margin: 10px;
+}
+
+#contactForm {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 8px 20px;
+  margin: 20px;
+  border-radius: 2px;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #e63946;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: rgb(11, 41, 114);
+  transition: all 0.3s ease-in-out;
+}
+
+#search-btn {
+  padding: 8px 20px;
+  margin: 20px;
+  border-radius: 2px;
+  color: white;
+  font-size: 1.5rem;
+  background-color: #e63946;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
