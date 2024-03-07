@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-bar {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.menu li {
+  margin: 0 1rem;
+}
+
+.footer {
+  color: whitesmoke;
+  background-color: #ab1414;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../imgs/hero-banner-large.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3.5em;
+  margin: 2rem 0;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background-image: url("../../imgs/food-bkgd.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+.about-container h1 {
+  color: black;
+  font-size: 2.5em;
+}
+
+.about-container p {
+  width: 50%;
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: black;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.contact-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 10px;
+}/*# sourceMappingURL=main.css.map */
