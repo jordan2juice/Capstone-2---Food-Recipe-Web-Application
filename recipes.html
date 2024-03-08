@@ -7,7 +7,7 @@
     <link rel="shortcut icon" href="imgs/favicon.svg" type="image/x-icon" />
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body id="body">
     <!-- header -->
     <header class="header">
       <div class="logo">
@@ -25,17 +25,22 @@
     <!-- main -->
     <main>
       <div>
-        <h1>Recipes for your dishes!</h1>
+        <h1 class="recipe-title">Recipes for your dishes!</h1>
         <div>
           <!-- search bar -->
-          <input type="text" id="input-box" placeholder="Search for a recipe" />
-          <button id="search-btn">Search</button>
+          <div id="search-bar">
+            <input
+              type="text"
+              id="input-box"
+              placeholder="Search for a recipe"
+            />
+            <button id="search-btn">Search</button>
+          </div>
           <!-- recipe results -->
           <div id="recipes">
             <h2>Your search results...</h2>
-            <div id="results">
+            <div id="recipeResults">
               <!-- recipes will be displayed here -->
-
             </div>
           </div>
         </div>
@@ -46,7 +51,7 @@
     <footer class="footer">
       &copy; <span id="copyright"></span> Jordan Toujoue
     </footer>
-    <script src="js files/app.js"></script>
+    <script src="js files/footer.js"></script>
     <script src="js files/api.js"></script>
   </body>
 </html>
