@@ -42,22 +42,13 @@ h1 {
   margin: 0 1rem;
 }
 
-.footer {
-  color: whitesmoke;
-  background-color: #ab1414;
-  text-align: center;
-  padding: 1rem;
-  font-size: 1.2rem;
-  font-family: "Lato", sans-serif;
-}
-
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(../../imgs/hero-banner-large.jpg);
   background-size: cover;
+  background-color: black;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
@@ -68,6 +59,15 @@ h1 {
 .hero h1 {
   font-size: 5em;
   margin: 2rem 0;
+}
+
+.footer {
+  color: whitesmoke;
+  background-color: #ab1414;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: "Lato", sans-serif;
 }
 
 #input-box {
@@ -111,6 +111,7 @@ h1 {
   padding: 20px;
   text-align: center;
   background-image: url("../../imgs/food-bkgd.jpg");
+  background-color: lightskyblue;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -193,4 +194,4 @@ form textarea {
   font-size: 1.5rem;
   background-color: #e63946;
   cursor: pointer;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
