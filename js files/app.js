@@ -11,8 +11,8 @@ form.addEventListener("submit", (e) => {
     alert("Not a valid name");
   }
   // validates the phone number
-  const phoneRegix = /^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/;
-  if (!phoneRegix.test(form.phone.value)) {
+  const phoneRegex = /^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/;
+  if (!phoneRegex.test(form.phone.value)) {
     e.preventDefault();
     alert("Not a valid phone number");
   }
