@@ -1,7 +1,6 @@
 "use strict";
 
-const BASE_URL = "https://my-proxy-server-rkxw.onrender.com/search";
-
+const BASE_URL = "https://my-proxy-server-rkxw.onrender.com/search"; // backend url
 
 // class for recipes //s
 class Recipe {
@@ -53,6 +52,7 @@ searchBar.addEventListener("keyup", (event) => {
   }
 });
 
+// EVENT LISTENERS for my search button
 document.querySelector("#search-btn").addEventListener("click", () => {
   const userSearchTerm = searchBar.value;
   searchBar.value = "";
