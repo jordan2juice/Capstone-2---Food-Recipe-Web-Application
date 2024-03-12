@@ -43,7 +43,7 @@ h1 {
 }
 
 .hero {
-  background-image: url("../../imgs/Wood-background.jpg");
+  background-image: url("imgs/Wood-background.jpg");
   background-color: black;
   display: flex;
   justify-content: center;
@@ -111,8 +111,8 @@ h1 {
   justify-content: center;
   padding: 20px;
   text-align: center;
-  background-image: url(linear-gradient(down, teal, white));
-  background-color: lightskyblue;
+  background-image: url("imgs/food-bkgd.jpg");
+  /* background-color: lightskyblue; */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -202,4 +202,4 @@ form textarea {
   font-size: 1.5rem;
   background-color: #e63946;
   cursor: pointer;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
